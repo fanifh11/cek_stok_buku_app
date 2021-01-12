@@ -1,4 +1,5 @@
-# TUGAS CRUD Android Studio dengan Database MYSQL
+# Tugas UAS Pemograman Mobile 
+## Cek Stock Buku APP
 
 ## Syarat
 1. Android Studio
