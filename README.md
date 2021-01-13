@@ -47,5 +47,5 @@ https://github.com/fanifh11/UAS_CekStockBukuAPP.git
 
 ## Nama Kelompok
 1. Fani Fadillah Hermawan (18051204003)
-2. Ilma Azmiyah (18051204006)
+2. Ilma Azmiyah (18051204008)
 3. Martha Yogi (18051204016)
