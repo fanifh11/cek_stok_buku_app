@@ -10,4 +10,11 @@
         android:title="Tambah Buku"
         android:icon="@drawable/ic_baseline_playlist_add_24"></item>
 
+    <item
+        android:id="@+id/Logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"></item>
+
+
+
 </menu>

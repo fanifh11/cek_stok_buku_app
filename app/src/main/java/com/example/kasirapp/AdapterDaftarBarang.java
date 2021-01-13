@@ -116,18 +116,7 @@ public class AdapterDaftarBarang extends RecyclerView.Adapter<AdapterDaftarBaran
     }
 
     private void popupDelete() {
-        Context context = new ContextThemeWrapper(mContext, R.style.AppTheme);
-        MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(context);
-        materialAlertDialogBuilder.setTitle("Hapus Barang")
-                .setMessage("Apa anda yakin ingin menghapus barang ini?")
-                .setNegativeButton("Batalkan", null)
-                .setPositiveButton("Ya!", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        deleteBarang();
-                    }
-                })
-                .show();
+        deleteBarang();
     }
 
     private void deleteBarang(){
@@ -137,14 +126,11 @@ public class AdapterDaftarBarang extends RecyclerView.Adapter<AdapterDaftarBaran
             @Override
             public void onResponse(Call<Data_Response> call, Response<Data_Response> response) {
                 if (response.isSuccessful()){
-                    Toast.makeText(mContext,  response.body().getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "Delete Sukses Silahkan Reload Halaman Ini Kembali", Toast.LENGTH_SHORT).show();
                 } else {
                     try {
                         JSONObject jObjError = new JSONObject(response.errorBody().string());
                         Toast.makeText(mContext, jObjError.getString("message"), Toast.LENGTH_LONG).show();
-
-
-
                     } catch (Exception e) {
                         Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_LONG).show();
                     }

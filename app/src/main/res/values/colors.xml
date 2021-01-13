@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00c769</color>
-    <color name="colorPrimaryDark">#029c53</color>
+    <color name="colorPrimary">#80deea</color>
+    <color name="colorPrimaryDark">#80deea</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="splashScreen">#00c769</color>
+    <color name="splashScreen">#4dd0e1</color>
 
-    <color name="iconnav">#00c769</color>
-    <color name="unselectediconnav">#90d1b2</color>
-    <color name="backgroundputih">#fff</color>
+    <color name="iconnav">#4bacb8</color>
+    <color name="unselectediconnav">#56c8d8</color>
+    <color name="background">#80deea</color>
 
-    <color name="btnbgcolor">#86f7c2</color>
+    <color name="btnbgcolor">#80deea</color>
 </resources>

@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                         case  R.id.tambah_Barang:
                             selected = new AddBarangFragment();
                             break;
+                        case  R.id.Logout:
+                            selected = new Logout();
+                            break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                             selected).commit();
