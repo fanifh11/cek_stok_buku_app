@@ -37,6 +37,14 @@ https://github.com/fanifh11/UAS_CekStockBukuAPP.git
 - Postman 
 - Composer
 
+
+## Fitur Aplikasi
+- SplashScreen
+- Login
+- Dashboard menu
+- CRUD data
+- Logout
+
 ## Nama Kelompok
 1. Fani Fadillah Hermawan (18051204003)
 2. Ilma Azmiyah (18051204006)
