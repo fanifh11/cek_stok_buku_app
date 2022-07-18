@@ -1,4 +1,3 @@
-# Tugas UAS Pemograman Mobile 
 ## Cek Stock Buku APP
 
 ## Syarat
